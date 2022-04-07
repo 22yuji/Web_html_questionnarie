@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>アンケート</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <header>
+        <h3>アンケート</h3>
+    </header>
+
+    <body>
+        <div class="quesmain">
+            <p>Axizの研修をご利用いただき、誠にありがとうございます。<br>
+            以下の内容の記入および送信をして頂けると幸いです。</p>
+
+            <div>
+                <label for="comName">会社名</label>
+                <label class="surly">必須</label>
+                <br>
+                <input type="text" id="comName" name="comName" placeholder="例)株式会社テクノコア" required>
+                <br>
+            </div><br>
+
+            <div>
+                <label for="name">お名前</label>
+                <label class="surly">必須</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="例)手久野　興亜" required>
+                <br>
+            </div><br>
+
+            <div>
+                <label for="mail">メールアドレス</label>
+                <br>
+                <input type="email" id="mail" name="mail" placeholder="例)example@axiz.co.jp">
+                <br>
+            </div><br>
+
+            <div>
+                <label for="age">年齢</label>
+                <br>
+                <input type="tel" id="age" name="age" value="23">
+                <br>
+            </div><br>
+
+            <div>
+                <label for="course">受験コース</label>
+                <br>
+                <label><input type="radio" id="course" name="course" value="Java" checked>Java</label>
+                <label><input type="radio" name="course" value="infra">インフラ</label>
+                <br>
+            </div><br>
+
+            <div>
+                <label for="stage">会場</label>
+                <br>
+                <select id="stage" name="stage">
+                    <option value="nihonbashiA" selected>日本橋A教室</option>
+                    <option value="nihonbashiB">日本橋B教室</option>
+                    <option value="nihonbashiC">日本橋C教室</option>
+                    <option value="okinawa">沖縄教室</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label for="skill">詳しく学びたい内容</label>
+                <br>
+                <label>
+                    <input type="checkbox" name="skill" value="manners">ビジネスマナー
+                </label><br>
+                <label>
+                    <input type="checkbox" name="skill" value="html/css">HTML/CSS
+                </label><br>
+                <label>
+                    <input type="checkbox" name="skill" value="javascript">JavaScript
+                </label><br>
+                <label>
+                    <input type="checkbox" name="skill" value="java">Java
+                </label><br>
+                <label>
+                    <input type="checkbox" name="skill" value="database">データベース
+                </label><br>
+                <label>
+                    <input type="checkbox" name="skill" value="linux">Linux
+                </label><br>
+            </div><br>
+
+            <div>
+                <label for="free">ご意見</label>
+                <br>
+                <textarea name="free" rows="8" cols="50">自由にご記入ください。</textarea>
+            </div><br>
+
+            <button id="end">送信する</button>
+
+        </div>
+    </body>
+
+    <footer>
+        <p class="foot">Copyright&ensp;(C)&ensp;AxiZ</p>
+    </footer>
+</html>

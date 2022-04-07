@@ -1,0 +1,67 @@
+h3{
+    text-align: center;
+    color: #469c40;
+    padding-bottom: 10px;
+    border-bottom: solid 3px #7588ff;
+}
+
+body{
+    background-color: #abe2f2;
+}
+
+.quesmain{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding-top: 1%; 
+    padding-left: 1%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    margin: 2% 30%;
+    background-color: white;
+}
+
+.surly{
+    font-size: 75%;
+    color: white;
+    margin-left: 5px;
+    border-radius: 8px;
+    border: 1px solid red;
+    background-color: red;
+}
+
+#comName, #name, #mail, #stage, textarea{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow: 0px 0px 2px gray;
+}
+
+#age{
+    width: 10%;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1%;
+    box-shadow: 0px 0px 2px gray;
+}
+
+#end{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow: 0px 0px 2px gray;
+}
+
+.foot{
+    font-size: 80%;
+    text-align: center;
+    padding-top: 10px;
+    border-top: solid 3px #7588ff;
+}
